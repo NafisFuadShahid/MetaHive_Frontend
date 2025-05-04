@@ -2,7 +2,7 @@
 import axios from "axios";
 import Cookies from "js-cookie";
 
-const API_BASE_URL = "http://localhost:8181";
+const API_BASE_URL = "https://ec2-13-61-12-23.eu-north-1.compute.amazonaws.com";
 
 // Public Axios instance
 export const publicAxios = axios.create({
