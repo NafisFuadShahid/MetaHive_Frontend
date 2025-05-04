@@ -2,7 +2,7 @@ import Keycloak from "keycloak-js";
 import Cookies from "js-cookie";
 
 const keycloakConfig = {
-  url: "https://metahive-keycloak-azure-axb6cqbec7gfcqf3.southeastasia-01.azurewebsites.net",
+  url: "https://ec2-13-61-12-23.eu-north-1.compute.amazonaws.com",
   realm: "meta",
   clientId: "metahive",
   credentials: {
