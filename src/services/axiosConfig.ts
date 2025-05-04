@@ -2,7 +2,7 @@
 import axios from "axios";
 import Cookies from "js-cookie";
 
-const API_BASE_URL = "https://ec2-13-61-12-23.eu-north-1.compute.amazonaws.com";
+const API_BASE_URL = "https://metahive-api-gateway-d9eggxfue0hvaqew.southeastasia-01.azurewebsites.net/";
 
 // Public Axios instance
 export const publicAxios = axios.create({
